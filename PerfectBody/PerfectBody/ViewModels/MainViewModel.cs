@@ -63,7 +63,7 @@ namespace PerfectBody.ViewModels
                     Analytics.TrackEvent("Bmi button clicked", new Dictionary<string, string> {
                         { "Weight", Weight.ToString() },
                         { "Height", Height.ToString() },
-                        { "BMI", Bmi.ToString() },
+                        { "Bmi", Bmi.ToString() },
                         { "Category", Category },
                     });
                 });
